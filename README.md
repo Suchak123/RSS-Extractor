@@ -63,10 +63,6 @@ DB_NAME=rss_db
 DB_USER=postgres
 DB_PASSWORD=postgres
 
-# Scraping
-REQUEST_TIMEOUT=10
-MAX_RETRIES=3
-USER_AGENT=Mozilla/5.0 (compatible; RSSBot/1.0)
 ```
 
 ⚠️ **Do not commit `.env`** — it is ignored via `.gitignore`.
